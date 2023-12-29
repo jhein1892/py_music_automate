@@ -1,1 +1,5 @@
 auth.txt
+recommendations/*
+!recommendations
+
+secrets.json
