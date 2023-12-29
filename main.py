@@ -55,7 +55,7 @@ try:
         for i, track in enumerate(tracks):
             artist = track['artists'][0]['name']
             title =  track['name']
-            recommended_tracks[i] = artist + ": " + title
+            recommended_tracks[i+1] = artist + ": " + title
 
         todays_date = getDate()
         with open(f'./recommendations/{todays_date}.txt', 'w') as file:
